@@ -11,20 +11,21 @@
 **/target
 **/output
 **/.sass-cache
-**/ui/.css/
-**/.tmp
+**/test_out
+**/coverage
+
+# Ignore UI-specific files and directories
 **/ui/node_modules
 **/ui/app/components
 **/ui/cacheAndroidDist
 **/ui/cacheChromeDist
 **/ui/app/styles/**/*.css
 **/ui/app/styles/*.css
-**/**/.DS_Store
-**/test_out
-**/omod/src/main/webapp/*
-**/coverage
 **/ui/style-guide
-**/node_modules
+
+# Ignore IDE-specific files and directories
+**/.idea
 **/*.tern-port
-**/**/.idea/*
+
+# Ignore specific files
 **/ui/common.background.min.js
